@@ -1,2 +1,2 @@
 # Projects
-A collection of my past an ongoing notable projects
+A collection of my past and ongoing notable projects
