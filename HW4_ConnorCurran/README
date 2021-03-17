@@ -1,0 +1,11 @@
+Added the controller package and implemented the PyramidSolitaireTextualController,
+ which is tightly coupled with the PyramidSolitaireTextualView in order to manage the model.
+
+Refactored BasicPyramidSolitaire's startGame method to add the buildBoard method, which constructs
+ a board from the tempDeck.
+
+Changed all private methods in BasicPyramidSolitaire to protected to allow them to be inherited/
+  overridden by child classes.
+
+Switched the calculation for a board that cannot be filled into a protected helper method,
+  total spaces.
